@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--f-body), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--f-display), Georgia, serif;
+
+  /* Biru dari logo SMAN 1 Cikarang Barat */
+  --color-brand-50: #eef7ff;
+  --color-brand-100: #d9edff;
+  --color-brand-200: #b3dbff;
+  --color-brand-300: #7cc2fb;
+  --color-brand-400: #38a6f2;
+  --color-brand-500: #0a8fe8;
+  --color-brand-600: #0678c8;
+  --color-brand-700: #0a62a3;
+  --color-brand-800: #0b4f85;
+  --color-brand-900: #0b3b66;
+  --color-brand-950: #082748;
+
+  /* Kuning emas dari karangan bunga dan teks logo */
+  --color-gold-50: #fffbe6;
+  --color-gold-100: #fff3b8;
+  --color-gold-200: #ffe985;
+  --color-gold-300: #ffdd4d;
+  --color-gold-400: #ffd21f;
+  --color-gold-500: #f5bf00;
+}
+
+body { color: #1e293b; background: #f2f9ff; }
